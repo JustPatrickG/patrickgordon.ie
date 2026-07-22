@@ -18,57 +18,57 @@
   // Timings tuned to the official video's structure. Words within each line
   // are spaced evenly between start and end.
   const LINES = [
-    [24.0, 27.2, "Coming out of my cage and I've been doing just fine"],
-    [27.4, 30.6, "Gotta gotta be down because I want it all"],
-    [30.8, 34.2, "It started out with a kiss how did it end up like this"],
-    [34.4, 37.6, "It was only a kiss it was only a kiss"],
-    [38.0, 41.4, "Now I'm falling asleep and she's calling a cab"],
-    [41.6, 45.0, "While he's having a smoke and she's taking a drag"],
-    [45.2, 48.6, "Now they're going to bed and my stomach is sick"],
-    [48.8, 52.4, "And it's all in my head but she's touching his"],
+    [21.0, 24.2, "Coming out of my cage and I've been doing just fine"],
+    [24.4, 27.6, "Gotta gotta be down because I want it all"],
+    [27.8, 31.2, "It started out with a kiss how did it end up like this"],
+    [31.4, 34.6, "It was only a kiss it was only a kiss"],
+    [35.0, 38.4, "Now I'm falling asleep and she's calling a cab"],
+    [38.6, 42.0, "While he's having a smoke and she's taking a drag"],
+    [42.2, 45.6, "Now they're going to bed and my stomach is sick"],
+    [45.8, 49.4, "And it's all in my head but she's touching his"],
     // pre-chorus
-    [52.8, 54.4, "Chest now"],
-    [54.6, 56.6, "He takes off her dress now"],
-    [56.8, 58.4, "Let me go"],
-    [58.6, 61.6, "And I just can't look it's killing me"],
-    [61.8, 64.4, "They're taking control"],
+    [49.8, 51.4, "Chest now"],
+    [51.6, 53.6, "He takes off her dress now"],
+    [53.8, 55.4, "Let me go"],
+    [55.6, 58.6, "And I just can't look it's killing me"],
+    [58.8, 61.4, "They're taking control"],
     // chorus
-    [64.6, 66.6, "Jealousy"],
-    [66.8, 69.4, "Turning saints into the sea"],
-    [69.6, 72.2, "Swimming through sick lullabies"],
-    [72.4, 75.0, "Choking on your alibi"],
-    [75.2, 77.8, "But it's just the price I pay"],
-    [78.0, 80.6, "Destiny is calling me"],
-    [80.8, 83.4, "Open up my eager eyes"],
-    [83.6, 86.6, "'Cause I'm Mr. Brightside"],
+    [61.6, 63.6, "Jealousy"],
+    [63.8, 66.4, "Turning saints into the sea"],
+    [66.6, 69.2, "Swimming through sick lullabies"],
+    [69.4, 72.0, "Choking on your alibi"],
+    [72.2, 74.8, "But it's just the price I pay"],
+    [75.0, 77.6, "Destiny is calling me"],
+    [77.8, 80.4, "Open up my eager eyes"],
+    [80.6, 83.6, "'Cause I'm Mr. Brightside"],
     // instrumental interlude ~86.6 - 99
     // verse 2
-    [99.0, 102.4, "I'm coming out of my cage and I've been doing just fine"],
-    [102.6, 105.8, "Gotta gotta be down because I want it all"],
-    [106.0, 109.4, "It started out with a kiss how did it end up like this"],
-    [109.6, 112.8, "It was only a kiss it was only a kiss"],
-    [113.2, 116.6, "Now I'm falling asleep and she's calling a cab"],
-    [116.8, 120.2, "While he's having a smoke and she's taking a drag"],
-    [120.4, 123.8, "Now they're going to bed and my stomach is sick"],
-    [124.0, 127.6, "And it's all in my head but she's touching his"],
-    [128.0, 129.6, "Chest now"],
-    [129.8, 131.8, "He takes off her dress now"],
-    [132.0, 133.6, "Let me go"],
-    [133.8, 136.8, "'Cause I just can't look it's killing me"],
-    [137.0, 139.6, "They're taking control"],
-    [139.8, 141.8, "Jealousy"],
-    [142.0, 144.6, "Turning saints into the sea"],
-    [144.8, 147.4, "Swimming through sick lullabies"],
-    [147.6, 150.2, "Choking on your alibi"],
-    [150.4, 153.0, "But it's just the price I pay"],
-    [153.2, 155.8, "Destiny is calling me"],
-    [156.0, 158.6, "Open up my eager eyes"],
-    [158.8, 161.8, "'Cause I'm Mr. Brightside"],
+    [96.0, 99.4, "I'm coming out of my cage and I've been doing just fine"],
+    [99.6, 102.8, "Gotta gotta be down because I want it all"],
+    [103.0, 106.4, "It started out with a kiss how did it end up like this"],
+    [106.6, 109.8, "It was only a kiss it was only a kiss"],
+    [110.2, 113.6, "Now I'm falling asleep and she's calling a cab"],
+    [113.8, 117.2, "While he's having a smoke and she's taking a drag"],
+    [117.4, 120.8, "Now they're going to bed and my stomach is sick"],
+    [121.0, 124.6, "And it's all in my head but she's touching his"],
+    [125.0, 126.6, "Chest now"],
+    [126.8, 128.8, "He takes off her dress now"],
+    [129.0, 130.6, "Let me go"],
+    [130.8, 133.8, "'Cause I just can't look it's killing me"],
+    [134.0, 136.6, "They're taking control"],
+    [136.8, 138.8, "Jealousy"],
+    [139.0, 141.6, "Turning saints into the sea"],
+    [141.8, 144.4, "Swimming through sick lullabies"],
+    [144.6, 147.2, "Choking on your alibi"],
+    [147.4, 150.0, "But it's just the price I pay"],
+    [150.2, 152.8, "Destiny is calling me"],
+    [153.0, 155.6, "Open up my eager eyes"],
+    [155.8, 158.8, "'Cause I'm Mr. Brightside"],
     // outro
-    [174.0, 175.4, "I never"],
-    [176.0, 177.4, "I never"],
-    [178.0, 179.4, "I never"],
-    [180.0, 181.4, "I never"],
+    [171.0, 172.4, "I never"],
+    [173.0, 174.4, "I never"],
+    [175.0, 176.4, "I never"],
+    [177.0, 178.4, "I never"],
   ];
 
   // Flatten to word events: { t, word, lineId, isLineStart }
@@ -128,6 +128,7 @@
     overlay.className = 'bs-overlay';
     overlay.innerHTML = `
       <div id="bsYT" class="bs-yt"></div>
+      <div class="bs-scrim"></div>
       <div class="bs-stage" id="bsStage">
         <button class="bs-play" id="bsPlay" aria-label="play">
           <svg viewBox="0 0 100 100" width="64" height="64">
@@ -145,6 +146,13 @@
     stage = overlay.querySelector('#bsStage');
     lyricWrap = overlay.querySelector('#bsLyrics');
 
+    // Preload the YouTube IFrame API now (during the fall), so that when the
+    // user taps play, YT is already available and we can create + play the
+    // player synchronously inside the tap gesture — which is what iOS requires
+    // to permit audio. Waiting until the tap to load the API means play happens
+    // in an async callback, which iOS treats as non-user-initiated and blocks.
+    loadYT(() => {});
+
     overlay.querySelector('#bsPlay').addEventListener('click', onPlay);
     overlay.querySelector('#bsExit').addEventListener('click', () => location.reload());
     overlay.querySelector('#bsNudge').addEventListener('click', () => {
@@ -154,28 +162,67 @@
   }
 
   // ---------- YouTube ----------
+  let ytReady = false;
+  let ytCallbacks = [];
+  let ytLoading = false;
+
   function loadYT(cb) {
-    if (window.YT && window.YT.Player) { cb(); return; }
+    if (window.YT && window.YT.Player) { ytReady = true; cb(); return; }
+    ytCallbacks.push(cb);
+    if (ytLoading) return;
+    ytLoading = true;
     const tag = document.createElement('script');
     tag.src = 'https://www.youtube.com/iframe_api';
     document.head.appendChild(tag);
-    window.onYouTubeIframeAPIReady = cb;
+    window.onYouTubeIframeAPIReady = () => {
+      ytReady = true;
+      ytCallbacks.forEach((fn) => fn());
+      ytCallbacks = [];
+    };
   }
 
   function onPlay() {
     const playBtn = overlay.querySelector('#bsPlay');
     playBtn.classList.add('gone');
+    const ytBox = overlay.querySelector('#bsYT');
     loadYT(() => {
       player = new YT.Player('bsYT', {
         videoId: VIDEO_ID,
-        playerVars: { autoplay: 1, controls: 0, playsinline: 1, rel: 0, modestbranding: 1 },
+        playerVars: {
+          autoplay: 1, controls: 0, playsinline: 1, rel: 0,
+          modestbranding: 1, fs: 0, disablekb: 1, iv_load_policy: 3,
+          mute: 1,
+        },
         events: {
-          onReady: (e) => { e.target.setVolume(85); e.target.playVideo(); },
+          onReady: (e) => {
+            // iOS only reliably allows MUTED autoplay when playback starts after
+            // an async gap (the API script had to load). Start muted, get it
+            // playing, then unmute — unmuting an already-playing video is allowed.
+            e.target.mute();
+            e.target.playVideo();
+            let tries = 0;
+            const unmute = setInterval(() => {
+              tries++;
+              const st = e.target.getPlayerState && e.target.getPlayerState();
+              if (st === YT.PlayerState.PLAYING) {
+                e.target.unMute();
+                e.target.setVolume(90);
+                clearInterval(unmute);
+              } else if (tries > 25) {
+                // give up trying to unmute silently; still unmute in case
+                e.target.unMute();
+                e.target.setVolume(90);
+                clearInterval(unmute);
+              }
+            }, 120);
+
+            ytBox.classList.add('playing');
+            if (!started) { started = true; overlay.querySelector('#bsNudge').classList.add('show'); tick(); }
+          },
           onStateChange: (e) => {
-            if (e.data === YT.PlayerState.PLAYING && !started) {
-              started = true;
-              overlay.querySelector('#bsNudge').classList.add('show');
-              tick();
+            if (e.data === YT.PlayerState.PLAYING) {
+              ytBox.classList.add('playing');
+              if (!started) { started = true; overlay.querySelector('#bsNudge').classList.add('show'); tick(); }
             }
           },
         },
