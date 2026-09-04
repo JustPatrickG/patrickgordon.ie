@@ -236,3 +236,6 @@ body {
 
 .bs-nudge.show { opacity: 1; }
 .bs-nudge:hover { color: #fff; border-color: rgba(255,255,255,0.5); }
+/* hide the raw title until the animation script takes over (prevents full-word flash) */
+.title { visibility: hidden; }
+.title.anim-ready { visibility: visible; }
