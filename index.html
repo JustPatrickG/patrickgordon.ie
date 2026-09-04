@@ -145,13 +145,18 @@
       });
     }
 
-    function start() {
+    function run() {
+      // collapse the title to just the 'pg' anchors BEFORE the first paint the user sees,
+      // then reveal it — so the full word never flashes.
+      const spans = buildChars();
+      titleEl.classList.add('anim-ready');
+
       document.body.style.opacity = '0';
       document.body.style.transition = 'opacity 500ms ease';
       requestAnimationFrame(() => { document.body.style.opacity = '1'; });
+
       const holdBeforeGrow = reduceMotion ? 0 : 650;
       setTimeout(() => {
-        const spans = buildChars();
         revealWord(spans, () => {
           setTimeout(() => {
             titleEl.classList.add('rise');
@@ -159,6 +164,17 @@
           }, reduceMotion ? 0 : 350);
         });
       }, holdBeforeGrow);
+    }
+
+    function start() {
+      // wait for the web font so letter widths are correct and timing is consistent
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(run);
+        // safety: run anyway if fonts stall
+        setTimeout(() => { if (!titleEl.classList.contains('anim-ready')) run(); }, 400);
+      } else {
+        run();
+      }
     }
 
     if (document.readyState === 'loading') {
